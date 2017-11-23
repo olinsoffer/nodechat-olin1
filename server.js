@@ -44,5 +44,5 @@ tcpServer.on('connection', (socket) => {
 
 });
 
-tcpServer.listen(process.env.PORT || 8000);
+tcpServer.listen(8888);
 
